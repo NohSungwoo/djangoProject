@@ -11,6 +11,7 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djangoProject.settings')
+# black 라이브러리에서 어디가 바뀌었는지 파란색으로 표시해준다.
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "djangoProject.settings")
 
 application = get_asgi_application()
